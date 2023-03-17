@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
  * Return: Always (0) [Success]
  */
-
 int main(void)
 {
 	int c_lower = (int)'a', c_upper = (int)'A';
