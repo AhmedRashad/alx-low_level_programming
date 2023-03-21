@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * Print alphabet in lowercase
+ * print_alphabet - Print alphabet in lowercase
  * followed by a new line
  */
 
 void print_alphabet(void)
 {
-	int first_low_char = (int)'a';
-	int last_low_char = (int)'z';
+	int first_lower_char = (int)'a';
+	int last_lower_char = (int)'z';
 
-	while (first_low_char <= last_low_char)
+	while (first_lower_char <= last_lower_char)
 	{
-		_putchar(first_low_char);
-		first_low_char++;
+		_putchar(first_lower_char);
+		first_lower_char++;
 	}
 	_putchar('\n');
 }
