@@ -9,13 +9,15 @@
 
 int main(void)
 {
-	char abe[] = "_putchar";
+	char *putchar = "_putchar";
+	char *ptr = putchar;
+	int i;
+	int size = strlen(putchar);
 
-	int c;
-
-	for (c = 0; c < 8; c++)
+	for (i = 0; i < size; i++)
 	{
-		_putchar(abe[c]);
+		_putchar(*ptr);
+		ptr++;
 	}
 	_putchar('\n');
 	return (0);
